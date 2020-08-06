@@ -1,0 +1,267 @@
+
+  body{
+    font-family: Segoe UI, Roboto, "Helvetica Neue", sans-serif;
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 0;
+    overflow-x: hidden;
+    line-height: 1;
+  }
+ 
+
+ul li{
+    list-style: none;
+}
+.pointer{
+    cursor: pointer;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.fa-user:before {
+    content: "\f007";
+}
+.navbar .actions {
+    justify-content: flex-end;
+}
+.navbar > * {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 8px 20px;
+    background-color: rgba( 64, 144, 172, 0.65 );
+    color: white;
+}
+.navbar .menu > *, .navbar .actions > *{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 8px; 
+    border-radius: 2px;
+    margin: 0px 4px;
+    
+}
+div {
+    display: block;
+}
+.board-menu {
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+    color: black;
+    background-color: rgba( 128, 128, 128, 0.3 );
+    color: white;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.pointer:active {
+    outline: none;
+}
+.pointer:hover {
+    opacity: 0.7;
+}
+.board-container {
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.task-list-title {
+    margin: 4px;
+    font-weight: bold;
+}
+.board {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+    overflow: auto;
+    margin-top: 20px;
+    padding: 84px 20px 20px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.task-list-wrapper {
+    flex-shrink: 0;
+    flex-basis: 240px;
+    max-height: 100%;
+    overflow: hidden;
+}
+.task-list {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: rgba( 240, 240, 240, 0.9 );
+}
+.task-list-title-container {
+    display: flex;
+    justify-content: space-between;
+}
+.task-list-title {
+    margin: 4px;
+    font-weight: bold;
+}
+.task:hover .task-edit {
+    display: inline;
+}
+.task .task-edit {
+    float: right;
+    display: none;
+}
+.pointer:active {
+    outline: none;
+}
+.pointer:active {
+    outline: none;
+}
+.pointer:hover {
+    opacity: 0.7;
+}
+.task-list-more {
+    margin: 0 4px;
+}
+.task-list .task, .task-list input, .task-list textarea, .task-list button {
+    border-radius: 4px;
+}
+.full-width-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    font-size: 1em;
+    resize: none;
+}
+input, textarea {
+    border: none;
+    outline: none;
+}
+* {
+    box-sizing: border-box;
+}
+textarea {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textarea;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    padding: 2px;
+}
+.task-list {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: rgba( 240, 240, 240, 0.9 );
+}
+.task-list .task, .task-list input, .task-list textarea, .task-list button {
+    border-radius: 4px;
+}
+.task {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+}
+.add-card-form-actions, .add-list-form-actions {
+    margin: 10px 0;
+}
+.task-list .task, .task-list input, .task-list textarea, .task-list button {
+    border-radius: 4px;
+}
+.add-card-button, .add-list-button {
+    margin-right: 8px;
+}
+.btn-primary {
+    background-color: olive;
+    color: white;
+}
+.btn-inline {
+    display: inline-block;
+    width: auto;
+}
+.board-container {
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.board {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+    overflow: auto;
+    margin-top: 20px;
+    padding: 84px 20px 20px;
+}
+.task-list-wrapper {
+    flex-shrink: 0;
+    flex-basis: 240px;
+    max-height: 100%;
+    overflow: hidden;
+}
+.task-list {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: rgba( 240, 240, 240, 0.9 );
+}
+.task-list-title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
